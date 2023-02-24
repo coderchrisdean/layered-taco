@@ -108,4 +108,4 @@ The look-aheads and look-behind ensure that the password meets the complexity re
 
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+This tutorial was written by Christopher Dean.  You can find more of his work on [GitHub](https://github.com/coderchrisdean), or reach out to coderchrisdean@gmail.com.
