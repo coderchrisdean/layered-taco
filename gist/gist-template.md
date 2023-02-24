@@ -7,27 +7,51 @@ In this tutorial, we will learn how to use Regex to check if passwords are stron
 In this tutorial, we will use the following Regex pattern to validate passwords:
 
 ```
-^(?!.*(\d{2,}|([0-9]).*?\2))(?=.*[A-Z])(?=.*[a-z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$
+/^(?!.*(\d{2,}|([0-9]).*?\2))(?=.*[A-Z])(?=.*[a-z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/
 ```
 
-This pattern checks that the password has at least 8 characters, at least one uppercase letter, at least one lowercase letter, at least one number, and at least one special character.  It also checks that the password doesn't contain any two or more consecutive digits in ascending or descending order.
+We will call this regex pattern "Password Validator".
+
+This pattern checks that the password has at least 8 characters, at least one uppercase letter, at least one lowercase letter, at least one number, and at least one special character.  It also checks that the password doesn't contain any two or more consecutive digits in ascending or descending order.  
 
 ## Table of Contents
 
 - [Anchors](#anchors)
 - [Quantifiers](#quantifiers)
+- [Bracket Expressions](#bracket-expressions)
 - [OR Operator](#or-operator)
 - [Character Classes](#character-classes)
 - [Look-ahead and Look-behind](#look-ahead-and-look-behind)
 
 ## Regex Components
+
+Since regex is considered a literal, the pattern is wrapped in slashes (/). 
 ### Anchors 
 
-Anchors are employed to find patterns at the start or end of a string. We can use the caret (^) anchor in our password validation Regex to match the start of the string.
+Anchors are employed to find patterns at the start or end of a string. Caret (^) and Dollar Sign ($) are both considered anchors. We can use the caret (^) anchor in our password validation Regex to match the start of the string.
 
-## Quantifiers
+### Quantifiers
 
 Quantifiers determine the number of times a character or group is matched in a Regex. In the password validation Regex, we use the {8,} quantifier to match a minimum of 8 characters.
+
+### Bracket Expressions
+
+Bracket expressions allow you to define a set of characters to match, such as any digit or letter. In "Password Validator", we use the following bracket expressions:
+
+```
+[A-Za-z\d@$!%*?&]
+[0-9]
+[@$!%*?&]
+[A-Za-z\d@$!%*?&]
+```
+
+The first bracket expression `[A-Za-z\d@$!%*?&]` is used to match any uppercase or lowercase letter, any digit, or any of the special characters.
+
+The second bracket expression `[0-9]` is used to match any digit.
+
+The third bracket expression `[@$!%*?&]` is used to match any of the special characters.
+
+The fourth bracket expression `[A-Za-z\d@$!%*?&]` is used to match any uppercase or lowercase letter, any digit, or any of the special characters.
 
 ### OR Operator
 
