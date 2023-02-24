@@ -26,6 +26,7 @@ This pattern checks that the password has at least 8 characters, at least one up
 - [Back-references](#back-references)
 - [Look-ahead and Look-behind](#look-ahead-and-look-behind)
 - [Author](#author)
+- [URL](#url)
 
 ## Regex Components
 
@@ -108,4 +109,9 @@ The look-aheads and look-behind ensure that the password meets the complexity re
 
 ## Author
 
-This tutorial was written by Christopher Dean.  You can find more of his work on [GitHub](https://github.com/coderchrisdean), or reach out to coderchrisdean@gmail.com.
+This tutorial was written by Christopher Dean.  You can find more of his work on [GitHub](https://github.com/coderchrisdean), or reach out to coderchrisdean@gmail.com. 
+
+## URL
+
+This tutorial can be found at: https://coderchrisdean.github.io/layered-taco/
+
