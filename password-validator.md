@@ -21,9 +21,6 @@ This pattern checks that the password has at least 8 characters, at least one up
 - [OR Operator](#or-operator)
 - [Character Classes](#character-classes)
 - [Bracket Expressions](#bracket-expressions)
-- [Greedy and Lazy Match](#greedy-and-lazy-match)
-- [Boundaries](#boundaries)
-- [Back-references](#back-references)
 - [Look-ahead and Look-behind](#look-ahead-and-look-behind)
 - [Author](#author)
 - [URL](#url)
@@ -86,16 +83,6 @@ The second bracket expression `[0-9]` is used to match any digit.
 The third bracket expression `[@$!%*?&]` is used to match any of the special characters.
 
 The fourth bracket expression `[A-Za-z\d@$!%*?&]` is used to match any uppercase or lowercase letter, any digit, or any of the special characters.
-
-### Greedy and Lazy Match
-
-There are no greedy or lazy matches in "Password Validator".
-
-### Boundaries
-
-There are no boundaries in "Password Validator".
-
-### Back-references
 
 ### Look-ahead and Look-behind
 
