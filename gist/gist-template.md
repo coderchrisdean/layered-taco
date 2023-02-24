@@ -1,6 +1,6 @@
 # Validating Passwords with Regex
 
-Introductory paragraph (replace this with your text)
+In this tutorial, we will learn how to use Regex to check if passwords are strong enough.  We'll go through the different parts of a Regex, like anchors, quantifiers, character classes, and look-ahead and look-behind, and show you how to use them to create a Regex pattern that makes sure passwords have at least a certain number of characters, a mix of uppercase and lowercase letters, numbers, and special characters, and that don't password patterns.
 
 ## Summary
 
