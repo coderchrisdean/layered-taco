@@ -55,6 +55,16 @@ The fourth bracket expression `[A-Za-z\d@$!%*?&]` is used to match any uppercase
 
 ### OR Operator
 
+In "Password Validator," we use the OR operator (|) to match either a digit or a letter. This operator is used in our regex as follows: 
+
+`/^(?!.*(\d{2,}`
+
+OR (|) -> `|`
+
+`([0-9]).*?\2))(?=.*[A-Z])(?=.*[a-z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/`
+
+The OR operator is specifically used in the negative lookahead to enforce the rule that the password cannot contain consecutive digits. The lookahead checks if there are two or more digits in a row, which would violate the rule.
+
 ### Character Classes
 
 ### Flags
