@@ -2,6 +2,9 @@
 
 This project is a Regular Expression (regex) pattern that can be used to validate the strength and complexity of passwords.  The password validator ensures that the password meets certain criteria, such as length, character requirements, and pattern restrictions.
 
+## Please Note
+
+I did not realize the Gist UI was through GitHub browser, but I have many revisions in the password-validator-gs.md file.  I pasted my final Gist into the Gist UI.
 ## 🗂️ Table of Contents
 
 - [Getting Started](#getting-started)
@@ -61,4 +64,5 @@ None
 
  ### GitHub Gist:
   - https://gist.github.com/coderchrisdean/fe4819cd07bb563e7d8fd2ca2c2f14f9
+
 
