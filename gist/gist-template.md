@@ -18,19 +18,16 @@ This pattern checks that the password has at least 8 characters, at least one up
 - [Quantifiers](#quantifiers)
 - [OR Operator](#or-operator)
 - [Character Classes](#character-classes)
-- [Flags](#flags)
-- [Grouping and Capturing](#grouping-and-capturing)
-- [Bracket Expressions](#bracket-expressions)
-- [Greedy and Lazy Match](#greedy-and-lazy-match)
-- [Boundaries](#boundaries)
-- [Back-references](#back-references)
 - [Look-ahead and Look-behind](#look-ahead-and-look-behind)
 
 ## Regex Components
+### Anchors 
 
-### Anchors
+Anchors are employed to find patterns at the start or end of a string. We can use the caret (^) anchor in our password validation Regex to match the start of the string.
 
-### Quantifiers
+## Quantifiers
+
+Quantifiers determine the number of times a character or group is matched in a Regex. In the password validation Regex, we use the {8,} quantifier to match a minimum of 8 characters.
 
 ### OR Operator
 
