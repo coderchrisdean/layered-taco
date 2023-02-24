@@ -100,5 +100,5 @@ This tutorial was written by Christopher Dean.  You can find more of his work on
 
 ## URL
 
-This tutorial can be found at: https://coderchrisdean.github.io/layered-taco/
+This tutorial can be found at: https://gist.github.com/coderchrisdean/fe4819cd07bb563e7d8fd2ca2c2f14f9
 

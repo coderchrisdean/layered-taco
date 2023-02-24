@@ -59,5 +59,6 @@ None
 ### GitHub Repository:
  - https://github.com/coderchrisdean/layered-taco/
 
-### GitHub Pages:
- - https://coderchrisdean.github.io/layered-taco/
+ ### GitHub Gist:
+  - https://gist.github.com/coderchrisdean/fe4819cd07bb563e7d8fd2ca2c2f14f9
+
