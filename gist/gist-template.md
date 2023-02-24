@@ -1,4 +1,4 @@
-# Title (replace with your title)
+# Validating Passwords with Regex
 
 Introductory paragraph (replace this with your text)
 
